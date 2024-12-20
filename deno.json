@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all --env --watch main.ts",
+    "start": "deno run --allow-all --env main.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "mongoose": "npm:mongoose@8.0.1",
+    "express": "npm:express@4.18.2",
+    "cors": "npm:cors@2.8.5",
+    "ollama": "npm:ollama@^0.5.9",
+    "tensorflow": "npm:tensorflow@^0.7.0"
+  }
+}
